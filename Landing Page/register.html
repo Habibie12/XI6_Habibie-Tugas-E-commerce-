@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Register</title></head>
+    <body>
+        <form action="register.php" method="post">
+            <fieldset>
+                <legend>user login info</legend>
+                <p><label for="idusername">username:</label> <input id="idusername" type="text" name="username" placeholder="username anda"> </p> 
+                <p><label for="idemail">email:</label> <input id="idemail" type="email" name="email" placeholder="alamat email" /></p>
+                <p><label for="idpassword">Password:</label> <input id="idpassword" type="password" name="password"/></p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Data diri</legend>
+                <p><label for="idprovinsi">Nama:</label> <input id="idprovinsi" type="text" name="Provinsi" placeholder="Nama pengguna" /></p>
+                <p><label for="idkota">tanggal-lahir:</label> <input id="idkota" type="text" name="Kota" placeholder="tanggal-lahir" /></p>
+                <p><label for="idpos">Usia:</label> <input id="idpos" type="number" name="kode_pos" placeholder="usia" /></p>
+                <p><label for="idalamat">Alamat lengkap :</label> <input id="idlamat" type="text" name="alamat" placeholder="alamat tempat tinggal" /></p>
+                
+               
+            </fieldset><br><br>
+
+
+            <fieldset>
+                <p><label for="idagree">Saya bersedia mengikuti aturan forum</label> <input type="checkbox" name="bersedia_ikut" value="ya"></p>
+                <p>
+                <input type="reset" value="Reset">
+                <input type="button" name="submit" value="submit"/>
+            </p>
+                
+            </fieldset>
+        </form>
+    </body>
+</html>

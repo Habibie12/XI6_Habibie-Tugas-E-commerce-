@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.nav{
+    margin: auto;
+    text-align: center;
+    font-family: fantasy;
+    width: 100%;
+    font-size: 20px;
+}
+.nav ul{
+    background: #102128;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+    padding: 0 20px;
+}
+.nav ul li{
+    float: left;
+}
+.nav ul li:hover{
+    background: rgb(0, 204, 255);
+    
+}
+.nav ul li:hover a{
+    color: snow;
+}
+.nav ul li a{
+    display: block;
+    padding: 20px;
+    color: #bdc3c7;
+    text-decoration: none;
+}
+body {
+    font-family: 'Poppins' , sans-serif;
+}
+
+.small-container {
+    max-width: 500px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.single-product {
+    margin-top: 0px;
+    
+}
+.small-img-row {
+    justify-content: space-around;
+    display: flex;
+}
+.col-2 img {
+    max-width: 100%;
+    padding: pointer;
+}
+.small-img-col {
+    cursor: pointer;
+    flex-basis: 24%;
+}
+.single-product .col-2 img {
+    padding: 0;
+}
+.single-product .col-2 {
+    padding: 20px;
+}
+
+.col-2 {
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2 h1 {
+    font-size: 30px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+
+.single-product select{
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+}
+.single-product h4 {
+    margin:20px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+.single-product input {
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    border: 1px sandybrown;
+}
+input:focus {
+    outline: none;
+}
+a {
+    text-decoration: none;
+    color: #555;
+}
+.single-product .fa {
+    color: aqua;
+    margin-left:10px;
+}
+p {
+    color: gray;
+    text-align: justify;
+}
+.btn {
+    margin: 30px 0;
+    color: aquamarine;
+    padding: 8px 30px;
+    display: inline-block;
+    background: rgb(25, 25, 65);
+    border-radius: 30px;
+    transition: background 0,5s;
+}
+.btn:hover {
+    background: rgb(58, 58, 189);
+}
